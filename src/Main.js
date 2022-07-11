@@ -6,11 +6,9 @@ import "./Main.css";
 
 const Main = () => {
   return (
-    <div>
-      <Router>
-        <Cover />
-      </Router>
-    </div>
+    <Router>
+      <Cover />
+    </Router>
   );
 };
 
