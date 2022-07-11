@@ -5,13 +5,11 @@ import "./Cover.css";
 export const Cover = () => {
   return (
     <div className="cover">
-      <div>
-        <img src={z}></img>
-        <h3>uim</h3>
-        <h2>way to go</h2>
-        <h2>bla bla bla bla bla bla</h2>
-        <h4>bla bla bla bla bla bla</h4>
-      </div>
+      <img src={z}></img>
+      <h1>This site is under construction</h1>
+      <h2>come back later</h2>
+      <h3>thank you</h3>
+      <h4>uim</h4>
     </div>
   );
 };
