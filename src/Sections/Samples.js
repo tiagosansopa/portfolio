@@ -12,6 +12,8 @@ export const Samples = () => {
           <img src={z}></img>
           <img src={z}></img>
           <img src={z}></img>
+          <img src={z}></img>
+          <img src={z}></img>
         </div>
       </div>
     </div>

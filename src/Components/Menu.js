@@ -28,8 +28,7 @@ export const Menu = () => {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            UIM
-            <i class="fab fa-typo3" />
+            uim
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -58,20 +57,11 @@ export const Menu = () => {
                 Reach Out
               </Link>
             </li>
-
-            <li>
-              <Link
-                to="/sign-up"
-                className="nav-links-mobile"
-                onClick={closeMobileMenu}
-              >
-                Sign Up
-              </Link>
-            </li>
           </ul>
-          {button && <button buttonStyle="btn--outline">SIGN UP</button>}
         </div>
       </nav>
     </div>
   );
 };
+
+export default Menu;

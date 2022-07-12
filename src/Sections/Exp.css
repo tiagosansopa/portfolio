@@ -15,15 +15,12 @@ img {
 }
 
 .card {
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
   display: flex;
   flex-direction: column;
-  margin: 5%;
+  margin: auto;
   justify-content: center;
   align-items: center;
   color: white;
-  border-color: aqua;
-  border-width: 10px;
-  border-style: solid;
 }

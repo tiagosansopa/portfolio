@@ -12,6 +12,8 @@ export const Exp = () => {
           <img src={z}></img>
           <img src={z}></img>
           <img src={z}></img>
+          <img src={z}></img>
+          <img src={z}></img>
         </div>
       </div>
     </div>
