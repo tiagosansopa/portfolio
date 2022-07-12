@@ -1,0 +1,11 @@
+.reach {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border-color: aqua;
+  border-width: 10px;
+  border-style: solid;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
